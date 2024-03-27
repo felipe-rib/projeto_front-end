@@ -1,0 +1,31 @@
+header{
+    background-color: #153E90;
+}
+
+#titulo{
+    color: white;
+}
+
+main{
+    background-color: #F9FD50;
+}
+
+.titulo_selecao1{
+    color: #1A5D1A;
+}
+
+.subtitulo1{
+    color: #153E90;
+}
+
+.paragrafos {
+    color: #0C359E;
+}
+
+.foto_time {
+    width: 43%;
+}
+
+.foto_pele {
+    width: 43%;
+}
