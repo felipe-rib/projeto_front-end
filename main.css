@@ -1,31 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Jomhuria&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
 header{
+    display: flex;
+    flex-direction: row;
     background-color: #153E90;
+    padding-left: 89px;
 }
 
 #titulo{
     color: white;
+    font-family: Jomhuria;
+    font-size: 90px;
 }
 
 main{
+    display: flex;
+    flex-direction: row;
     background-color: #F9FD50;
 }
 
 .titulo_selecao1{
     color: #1A5D1A;
+    font-family: Jomhuria;
+    font-size: 90px;
+    padding-left: 89px;
 }
 
 .subtitulo1{
     color: #153E90;
+    font-family: Inter;
+    font-size: 22px;
+    text-decoration: underline;
+    padding-left: 89px;
 }
 
 .paragrafos {
     color: #0C359E;
+    font-family: Inter;
+    font-size: 18px;
+    padding-left: 89px;
 }
 
-.foto_time {
-    width: 43%;
+img{
+    margin: 1.5%;
 }
 
-.foto_pele {
-    width: 43%;
+
+
+.fotos{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-right: 5%;
+    margin-left: 5%;
 }
+
+.textos{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.fotos_maiores{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 551px;
+    height: 346px;
+
+}
+
+.fotos_menores{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 438px;
+    height: 346px;
+}
+
+footer{
+    background-color: #0C359E ;
+}
+
