@@ -4,14 +4,30 @@
 header{
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
     background-color: #153E90;
-    padding-left: 89px;
+    border-bottom: 115px white;
 }
 
-#titulo{
+.estrelas_cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+}
+
+.titulo_cabecalho{
     color: white;
+    padding-right: 1400px;
     font-family: Jomhuria;
-    font-size: 90px;
+    font-size: 100px;
+    letter-spacing: 3px;
+}
+
+.logo_cbf{
+    display: flex;
 }
 
 main{
@@ -20,22 +36,23 @@ main{
     background-color: #F9FD50;
 }
 
-.titulo_selecao1{
+.titulo_conteudo{
     color: #1A5D1A;
     font-family: Jomhuria;
     font-size: 90px;
     padding-left: 89px;
+    letter-spacing: 2px;
 }
 
-.subtitulo1{
+.subtitulo_botao{
     color: #153E90;
     font-family: Inter;
-    font-size: 22px;
+    font-size: 24px;
     text-decoration: underline;
     padding-left: 89px;
 }
 
-.paragrafos {
+.paragrafos{
     color: #0C359E;
     font-family: Inter;
     font-size: 18px;
@@ -55,12 +72,6 @@ img{
     margin-bottom: 10%;
     margin-right: 5%;
     margin-left: 5%;
-}
-
-.textos{
-    display: flex;
-    flex-direction: column;
-    
 }
 
 .fotos_maiores{
