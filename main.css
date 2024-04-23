@@ -1,33 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Jomhuria&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
+
 header{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
     background-color: #153E90;
     border-bottom: 115px white;
+}
+
+.cabecalho_itens {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .estrelas_cabecalho{
     display: flex;
     flex-direction: row;
-    justify-content: center;
     width: 100px;
     height: 100px;
+    padding-right: 120px;
 }
 
 .titulo_cabecalho{
     color: white;
-    padding-right: 1400px;
     font-family: Jomhuria;
     font-size: 100px;
     letter-spacing: 3px;
-}
-
-.logo_cbf{
-    display: flex;
 }
 
 main{
@@ -59,12 +57,6 @@ main{
     padding-left: 89px;
 }
 
-img{
-    margin: 1.5%;
-}
-
-
-
 .fotos{
     display: flex;
     flex-direction: row;
@@ -72,6 +64,7 @@ img{
     margin-bottom: 10%;
     margin-right: 5%;
     margin-left: 5%;
+    
 }
 
 .fotos_maiores{
@@ -80,6 +73,8 @@ img{
     justify-content: center;
     width: 551px;
     height: 346px;
+    margin: 1.5%;
+    gap: 5%;
 
 }
 
@@ -89,9 +84,12 @@ img{
     justify-content: center;
     width: 438px;
     height: 346px;
+    margin: 1.5%;
+    gap: 5%;
 }
 
 footer{
     background-color: #0C359E ;
 }
+
 
